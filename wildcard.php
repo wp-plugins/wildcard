@@ -3,7 +3,7 @@
  * Plugin Name: Wildcard
  * Plugin URI: http://www.trywildcard.com/docs
  * Description: This plugin quickly formats your Wordpress site for inclusion into the Wildcard mobile application.
- * Version: 1.0
+ * Version: 1.1
  * Author: Connor McEwen
  * Author URI: http://cmcewen.com
  * License: GPL2
@@ -94,6 +94,11 @@ class Wildcard_API {
         'source' => get_bloginfo('show', $current_post)
       )
     );
+    $tag_objects = get_the_tags($current_post);
+    if ($tag_objects) {
+      $tags = array_map(create_function('$o', 'return $o->name;'), $tag_objects);
+      $data['keywords'] = array_values($tags);
+    }
     $test_for_image = true;
     if (preg_match('/\[embed(.*)](.*)\[\/embed]/', $current_post->post_content, $matches)) {
       $plain_url = str_replace('[/embed]', '', str_replace('[embed]', '', $matches[0]));
