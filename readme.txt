@@ -9,6 +9,8 @@ Wildcard helps you reach mobile users. Turn your web-based blog or publication i
 
 == Description ==
 
-The Wildcard plug-in allows you to quickly convert your web content into native, mobile-optimized cards. Cards are the best way to reach users on mobile devices. This plugin will turn your posts into cards that can be interacted with, discovered and shared from [Wildcard's iOS app](http://www.trywildcard.com/).
+This Wildcard plug-in allows you to quickly convert your web content into native, mobile-optimized cards. Cards are the best way to reach users on mobile devices. This plugin will turn your posts into cards that people can interact with, discover and share from [Wildcard's iOS app](http://www.trywildcard.com/).
 
-You must go to [Wildcard's site](http://pair.trywildcard.com/wordpress) to complete your installation. For more information on the benefits of cards for publishers, [visit our website](http://www.trywildcard.com/partner).
+You must go to [Wildcard's site](http://pair.trywildcard.com/wordpress) to complete your installation. After installing the Wildcard plugin, visit [our website](http://pair.trywildcard.com/wordpress) and select "Complete Installation" to submit your blog to the Wildcard app. 
+
+For more information on the benefits of cards for publishers, [visit our website](http://www.trywildcard.com/partner).
