@@ -15,7 +15,7 @@ You **must** go to [Wildcard's site](http://pair.trywildcard.com/wordpress) to c
 
 For more information on the benefits of cards for publishers, [visit our website](http://www.trywildcard.com/partner).
 
-== FAQS ==
+== Frequently Asked Questions ==
 
 **How does the Wildcard Wordpress plugin work?**
 
