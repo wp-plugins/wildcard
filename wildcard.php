@@ -66,7 +66,7 @@ class Wildcard_API {
   public static function activation_success() {
     ?>
     <div class="updated">
-    <p><a target="_blank" href="http://www.trywildcard.com/wordpress">The Wildcard plugin was activated! You must contact us to finish adding your site to the Wildcard app - click this message to complete your installation.</a></p>
+    <p><a target="_blank" href="http://pair.trywildcard.com/wordpress">The Wildcard plugin was activated! You must contact us to finish adding your site to the Wildcard app - click this message to complete your installation.</a></p>
     </div>
     <?php
   }
